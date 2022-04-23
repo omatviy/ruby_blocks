@@ -18,15 +18,3 @@ end
 
 puts orders
 
-puts "Newsletter emails"
-
-orders.map do |order| 
-    puts order.email 
-end
-
-sum = 0
-orders.map do |order| 
-    sum += order.total
-end
-
-puts "Total sales $#{sum}"

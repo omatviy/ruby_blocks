@@ -18,3 +18,9 @@ end
 
 puts orders
 
+taxes = {'CO':0.02, 'MT':0.00, 'AZ':0.04}
+
+taxes.each do |key, value|
+    puts "key: #{key} value:#{value}"
+end
+
